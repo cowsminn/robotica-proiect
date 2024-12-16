@@ -4,7 +4,7 @@
 This project represent a game from old brick (yellow colorway ofc) that i played i a lot when i was 7 years old, being hospitalized. The game is not complicated at all, it consists of moving a car left/right without hitting enemy cars approaching you.
 
 <p align="center">
-  <img src="./img/img1.png"/>
+  <img src="./img/Untitled Diagram.drawio.png"/>
 </p>
 
 
