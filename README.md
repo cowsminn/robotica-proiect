@@ -10,8 +10,8 @@ This project represent a game from old brick (yellow colorway ofc) that i played
 ### Component list
 - 1x Arduino Uno
 - 1x Breadboard
-- 1x Oled Display 128x64
-- 3x Buttons
+- 1x Oled I2C Display 128x64
+- 3x PullUp Buttons
 - Connecting wires
 - 3x 1k ohm Rezistors
 
