@@ -9,12 +9,11 @@ This project represent a game from old brick (yellow colorway ofc) that i played
 ## Hardware Design
 ### Component list
 - 1x Arduino Uno
-- 1x Breadboar
+- 1x Breadboard
 - 1x Oled Display 128x64
-- ?x Buttons
+- 3x Buttons
 - Connecting wires
-- ?x Rezistors
-  ... (As the project progresses, I will continue to add more)
+- 3x 1k ohm Rezistors
 
 ## Software Design
 
