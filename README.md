@@ -41,6 +41,8 @@ This project integrates hardware and software components, demonstrating the vers
 | **Button 2**              | VCC, GND, Pin 3 |
 | **Button 3**              | VCC, GND, Pin 10 |
 
+![img](./img/img4.jpeg)
+![img](./img/img5.jpeg)
 ## Software Design
 
 ## Results 
