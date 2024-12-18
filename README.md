@@ -9,6 +9,17 @@ My project recreates a version of the brick "racing" game, where the player must
 This project integrates hardware and software components, demonstrating the versatility of Arduino for game development. By using a 128x64 OLED Y&B screen,buttons, and Arduino logic, the game renders visuals similar to the iconic monochrome blocks seen in classic brick games.
 ## General Description
 ![img](./img/img1.png)
+### Modules and Components
+- **Arduino**: The Arduino acts as the interface between hardware components and software instructions.
+- **Small Breadboard**: The breadboard organizes connections and serves as a bridge for components to communicate electrically.
+- **OLED Y&B Display I2C 0.96" 128x64**: The crisp, pixel-based graphics on the OLED provide a nostalgic and clear gaming experience similar to retro brick games.
+- **Buttons**: Used for player input, such as movement and control actions in the game. They are configured with internal pull-up resistors to simplify the circuit and reduce external components.
+- **Wires**: Use of wires ensures reliable communication and power delivery between all parts of the system.
+
+### Connection Interfaces
+- **OLED Y&B Display I2C 0.96" 128x64**: Connected to the Arduino via the I2C interface (SDA - A4 and SCL - A5).
+- **Buttons** : One side of the button connects to an Arduino digital pin (D2, D3, D10) and the other side of the button connects to GND.
+
 ## Hardware Design
 ### Wokwi Simulatation
 ![img](./img/img2.png)
