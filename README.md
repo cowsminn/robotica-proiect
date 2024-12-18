@@ -24,7 +24,7 @@ This project integrates hardware and software components, demonstrating the vers
 
 | Component                | Connected Pins           |
 |--------------------------|--------------------------|
-| **Arduino Uno R3**        | GND (2), 5V, A5 (SCL), A4 (SDA),2 (Button 1), 3 (Button 2), 10 (Button3) |
+| **Arduino Uno R3**        | GND, 5V, A5 (SCL), A4 (SDA),2 (Button 1), 3 (Button 2), 10 (Button3) |
 | **OLED Y&B Display (128x64, I2C)**| SCL (A5), SDA (A4), VCC, GND |
 | **Button 1**              | VCC, GND, Pin 2 |
 | **Button 2**              | VCC, GND, Pin 3 |
