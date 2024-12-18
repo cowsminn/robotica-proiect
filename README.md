@@ -9,10 +9,10 @@ My project recreates a version of the brick "racing" game, where the player must
 This project integrates hardware and software components, demonstrating the versatility of Arduino for game development. By using a 128x64 OLED Y&B screen,buttons, and Arduino logic, the game renders visuals similar to the iconic monochrome blocks seen in classic brick games.
 ## General Description
 ![img](./img/img1.png)
-![img](./img/img2.png)
-![img](./img/image.png)
 ## Hardware Design
 ### Component list
+![img](./img/img2.png)
+![img](./img/img3.png)
 - 1x Arduino Uno
 - 1x Breadboard
 - 1x Oled I2C Display 128x64
