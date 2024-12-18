@@ -12,7 +12,7 @@ This project integrates hardware and software components, demonstrating the vers
 ## Hardware Design
 ### Component list
 ![img](./img/img2.png)
-![img](./img/img3.png)
+![img](./img/img3.PNG)
 - 1x Arduino Uno
 - 1x Breadboard
 - 1x Oled I2C Display 128x64
