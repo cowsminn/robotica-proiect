@@ -10,7 +10,7 @@ This project integrates hardware and software components, demonstrating the vers
 ## General Description
 ![img](./img/img1.png)
 ## Hardware Design
-### 
+### Wokwi Simulatation
 ![img](./img/img2.png)
 ### Electric Diagram
 ![img](./img/img3.PNG)
