@@ -10,6 +10,7 @@ This project integrates hardware and software components, demonstrating the vers
 ## General Description
 ![img](./img/img1.png)
 ![img](./img/img2.png)
+![img](./img/image.png)
 ## Hardware Design
 ### Component list
 - 1x Arduino Uno
