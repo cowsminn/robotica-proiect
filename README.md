@@ -21,7 +21,7 @@ This project integrates hardware and software components, demonstrating the vers
 - **Buttons** : One side of the button connects to an Arduino digital pin (D2, D3, D10) and the other side of the button connects to GND.
 
 ## Hardware Design
-### Wokwi Simulatation
+### Wokwi Simulation
 ![img](./img/img2.png)
 ### Electric Diagram
 ![img](./img/img3.PNG)
