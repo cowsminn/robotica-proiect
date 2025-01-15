@@ -66,12 +66,56 @@ The following libraries and resources were utilized in this project to enhance f
 
 4. **Arduino Core**  
    - The core Arduino framework that provides the fundamental functions (`setup`, `loop`, `pinMode`, `digitalRead`, etc.).  
-   - `source`: [Arduino Core](https://www.arduino.cc/en/software)  
+   - `source`: [Arduino Core](https://www.arduino.cc/en/software)
+
+### Implementation
+
+- **Start Screen and Game Over Screen:**
+  - The start screen is displayed when the Arduino is powered on, showing a simple menu for starting the game.
+  - The game over screen appears whenever the player loses, displaying the total score for that round and allowing the player to return to the main menu.
+
+- **Main Menu:**
+  - Accessible when the game state is set to `MENU`. Players navigate the menu using the left and right buttons.
+  - Two options are available in the menu:
+    - **Start:** Begins the gameplay.
+    - **Exit:** Turns off the screen for 5 seconds before returning to the menu.
+  - **Navigation:**
+    - Use the left and right buttons to toggle between options.
+    - Press the restart button to select the currently highlighted option.
+
+- **Gameplay:**
+  - The player controls the movement of a car using two buttons:
+    - **Left Button:** Moves the car to the left lane.
+    - **Right Button:** Moves the car to the right lane.
+  - **Obstacles**:
+    - Obstacles (enemy cars) are randomly generated and move down the screen.
+  - **Collision Detection**:
+    - Ensures the game ends if the player's car collides with an obstacle.
+  - **Scoring System**:
+    - Scoring increases each time an obstacle successfully moves off the screen.
+    - The game transitions to the `WIN` state when the player reaches a score of x points.
+
+- **Game States:**
+  - **`MENU`**: Displays the main menu for navigation and selection.
+  - **`PLAYING`**: The active gameplay state where the player controls the car and avoids obstacles.
+  - **`GAME_OVER`**: Displays the game over screen when a collision occurs.
+  - **`WIN`**: Displays the "YOU WIN" screen when the player reaches the target score.
+
+- **Obstacle Generation:**
+  - Obstacles appear in one of two lanes, randomly chosen for each new obstacle.
+  - Obstacles move downward at a fixed speed, simulating motion.
+
+- **Hardware:**
+  - **OLED Display (128x64):** Displays the graphics, including the car, obstacles, road lines, and menu options.
+  - **Buttons:**
+    - Button 1 (Left): Moves the car to the left lane.
+    - Button 2 (Right): Moves the car to the right lane.
+    - Button 3 (Restart): Handles menu selection and game restart functionality.
 
 ## Results 
 
-## Conclusions
+## DataSheet
 
-[oled_datasheet](img/oled_datasheet.pdf)
+[OLED Y&B Display I2C 0.96" 128x64](img/oled_datasheet.pdf)
 
 
