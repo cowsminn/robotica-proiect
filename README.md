@@ -44,6 +44,47 @@ This project integrates hardware and software components, demonstrating the vers
 ![img](./img/img4.jpeg)
 ![img](./img/img5.jpeg)
 ## Software Design
+The software implementation for the Racing Brick Game is developed using the Arduino platform and C++ programming. 
+### Libraries and 3rd-Party Sources Used
+
+The following libraries and resources were utilized in this project to enhance functionality and simplify development:
+
+1. **Adafruit GFX Library**  
+   - Provides a core set of graphics functions for drawing shapes, text, and bitmaps on a variety of displays.
+   - Used to drawthe game elements such as the car, obstacles, road lines, and to score display on the OLED screen.
+   - **source**: [Adafruit GFX Library on GitHub](https://github.com/adafruit/Adafruit-GFX-Library)  
+  
+
+2. **Adafruit SSD1306 Library**  
+   - A library for controlling SSD1306-based OLED displays via I2C or SPI.
+   - Used for initializing and managing the 128x64 OLED display, including sending commands and rendering the game interface.
+   - **Source**: [Adafruit SSD1306 Library on GitHub](https://github.com/adafruit/Adafruit_SSD1306)  
+   
+3. **Wire Library (Built-In)**  
+   - **Description**: A built-in Arduino library for I2C communication.  
+   - **Source**: Comes pre-installed with the Arduino IDE.  
+   - **Usage in the Project**:  
+     - Facilitates communication between the Arduino and the OLED display over the I2C interface.
+
+4. **Arduino Core**  
+   - **Description**: The core Arduino framework that provides the fundamental functions (`setup`, `loop`, `pinMode`, `digitalRead`, etc.).  
+   - **Source**: [Arduino Core](https://www.arduino.cc/en/software)  
+   - **Usage in the Project**:  
+     - Provides essential tools for interfacing with hardware components like buttons and managing the main game loop.
+
+### External Resources
+- **SSD1306 OLED Datasheet**  
+   - **Description**: Official datasheet for the SSD1306 OLED controller used in the display module.  
+   - **Source**: [SSD1306 Datasheet PDF](img/oled_datasheet.pdf)  
+   - **Usage in the Project**:  
+     - Reference for understanding the capabilities and limitations of the OLED display.
+
+- **Wokwi Simulation**  
+   - **Description**: A web-based simulation platform for prototyping Arduino projects.  
+   - **Source**: [Wokwi Simulator](https://wokwi.com/)  
+   - **Usage in the Project**:  
+     - Simulated and debugged the circuit design and software logic before deploying to hardware.
+
 
 ## Results 
 
