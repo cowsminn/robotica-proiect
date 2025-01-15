@@ -52,13 +52,13 @@ The following libraries and resources were utilized in this project to enhance f
 1. **Adafruit GFX Library**  
    - Provides a core set of graphics functions for drawing shapes, text, and bitmaps on a variety of displays.
    - Used to drawthe game elements such as the car, obstacles, road lines, and to score display on the OLED screen.
-   - `source`: [Adafruit GFX Library on GitHub](https://github.com/adafruit/Adafruit-GFX-Library)  
+   - `source`: [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library)  
   
 
 2. **Adafruit SSD1306 Library**  
    - A library for controlling SSD1306-based OLED displays via I2C or SPI.
    - Used for initializing and managing the 128x64 OLED display, including sending commands and rendering the game interface.
-   - `source`: [Adafruit SSD1306 Library on GitHub](https://github.com/adafruit/Adafruit_SSD1306)  
+   - `source`: [Adafruit SSD1306 Library](https://github.com/adafruit/Adafruit_SSD1306)  
    
 3. **Wire Library (Built-In)**  
    - A built-in Arduino library for I2C communication.  
