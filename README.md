@@ -49,4 +49,4 @@ This project integrates hardware and software components, demonstrating the vers
 
 ## Conclusions
 
-<a href="img/oled_datasheet.pdf" class="image fit"></a>
+<a href="img/oled_datasheet.pdf" class="image fit">oled_datasheet</a>
