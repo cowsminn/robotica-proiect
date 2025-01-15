@@ -111,6 +111,45 @@ The following libraries and resources were utilized in this project to enhance f
     - Button 1 (Left): Moves the car to the left lane.
     - Button 2 (Right): Moves the car to the right lane.
     - Button 3 (Restart): Handles menu selection and game restart functionality.
+### Functions Implemented
+
+- **`setup()` and `loop()`**: 
+  - These are the core Arduino functions.
+  - `setup()` initializes the OLED display, button pins, and game variables.
+  - `loop()` handles the main game flow based on the current game state, including menu navigation, gameplay, and screen updates.
+
+- **Interrupts**: 
+  - The restart button (`BUTTON_RESTART`) uses a hardware interrupt for responsive input handling.
+  - The interrupt handler `handleRestartButtonPress()` sets a flag (`restartPressed`) to restart the game or return to the menu.
+
+- **Game Logic Functions**:
+  - **`updateGame()`**:
+    - Handles obstacle movement, player car movement, and collision detection.
+    - Increases the score when obstacles are successfully avoided.
+  - **`resetGame()`**:
+    - Resets all game variables (e.g., score, obstacle positions) to start a new round.
+  - **`handleMenuInput()`**:
+    - Handles navigation within the main menu using left and right buttons.
+
+- **Graphics Functions**:
+  - **`drawGame()`**:
+    - Renders the game screen, including the player car, obstacles, road, and score.
+  - **`drawMenu()`**:
+    - Displays the main menu with options for "START" and "EXIT."
+  - **`drawCar(int x, int y)`**:
+    - Draws the player's car using block-style graphics.
+  - **`drawObstacle(int x, int y)`**:
+    - Draws obstacles that the player must avoid.
+  - **`drawDottedLine()`**:
+    - Renders the dashed centerline of the road.
+
+- **Collision Detection**:
+  - Integrated into `updateGame()` to check for collisions between the player's car and obstacles.
+  - Ends the game when a collision is detected, transitioning to the `GAME_OVER` state.
+
+- **Menu and Navigation**:
+  - The menu system allows players to navigate between "START" and "EXIT."
+  - Menu logic is managed using the `menuSelection` variable, with buttons controlling navigation and selection.
 
 ## Results 
 
