@@ -96,11 +96,11 @@ void handleRestartButtonPress() {
 
 void loop() {
   if (currentState == PLAYING) {
-    if (!gameOver && score < 5) { 
+    if (!gameOver && score < 50) { 
       updateGame();
       drawGame();
-      delay(40);
-    } else if (score >= 5) { 
+      delay(35);
+    } else if (score >= 50) { 
       currentState = WIN;
       display.clearDisplay();
       display.display();     
@@ -294,7 +294,7 @@ void resetGame() {
   gameOver              = false;
 }
 
-// DRAW A 2x3 "CAR"
+// DRAW CAR
 void drawCar(int x, int y) {
   int size = 6;
 
@@ -314,7 +314,7 @@ void drawCar(int x, int y) {
   display.fillRect(x + size * 2, y + size * 3, size, size, SSD1306_WHITE);
 }
 
-// DRAW A 2x3 "OBSTACLE"
+// DRAW OBSTACLE
 void drawObstacle(int x, int y) {
   int size = 6;
 
